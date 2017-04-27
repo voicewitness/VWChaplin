@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541B70031EB2303200E4B658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70021EB2303200E4B658 /* main.m */; };
+		541B70061EB2303200E4B658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70051EB2303200E4B658 /* AppDelegate.m */; };
+		541B70091EB2303200E4B658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70081EB2303200E4B658 /* ViewController.m */; };
+		541B700C1EB2303200E4B658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541B700A1EB2303200E4B658 /* Main.storyboard */; };
+		541B700E1EB2303200E4B658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541B700D1EB2303200E4B658 /* Assets.xcassets */; };
+		541B70111EB2303200E4B658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541B700F1EB2303200E4B658 /* LaunchScreen.storyboard */; };
+		541B701C1EB2303200E4B658 /* VWChaplinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B701B1EB2303200E4B658 /* VWChaplinDemoTests.m */; };
+		541B70271EB2303200E4B658 /* VWChaplinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70261EB2303200E4B658 /* VWChaplinDemoUITests.m */; };
+		541B70371EB2305E00E4B658 /* VWChaplin.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70361EB2305E00E4B658 /* VWChaplin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541B70181EB2303200E4B658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541B6FF61EB2303200E4B658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541B6FFD1EB2303200E4B658;
+			remoteInfo = VWChaplinDemo;
+		};
+		541B70231EB2303200E4B658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541B6FF61EB2303200E4B658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541B6FFD1EB2303200E4B658;
+			remoteInfo = VWChaplinDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541B6FFE1EB2303200E4B658 /* VWChaplinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VWChaplinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B70021EB2303200E4B658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		541B70041EB2303200E4B658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		541B70051EB2303200E4B658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		541B70071EB2303200E4B658 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		541B70081EB2303200E4B658 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		541B700B1EB2303200E4B658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541B700D1EB2303200E4B658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541B70101EB2303200E4B658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		541B70121EB2303200E4B658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B70171EB2303200E4B658 /* VWChaplinDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWChaplinDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B701B1EB2303200E4B658 /* VWChaplinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWChaplinDemoTests.m; sourceTree = "<group>"; };
+		541B701D1EB2303200E4B658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B70221EB2303200E4B658 /* VWChaplinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWChaplinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B70261EB2303200E4B658 /* VWChaplinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWChaplinDemoUITests.m; sourceTree = "<group>"; };
+		541B70281EB2303200E4B658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B70351EB2305E00E4B658 /* VWChaplin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWChaplin.h; sourceTree = "<group>"; };
+		541B70361EB2305E00E4B658 /* VWChaplin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWChaplin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541B6FFB1EB2303200E4B658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B70141EB2303200E4B658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B701F1EB2303200E4B658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541B6FF51EB2303200E4B658 = {
+			isa = PBXGroup;
+			children = (
+				541B70001EB2303200E4B658 /* VWChaplinDemo */,
+				541B701A1EB2303200E4B658 /* VWChaplinDemoTests */,
+				541B70251EB2303200E4B658 /* VWChaplinDemoUITests */,
+				541B6FFF1EB2303200E4B658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541B6FFF1EB2303200E4B658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541B6FFE1EB2303200E4B658 /* VWChaplinDemo.app */,
+				541B70171EB2303200E4B658 /* VWChaplinDemoTests.xctest */,
+				541B70221EB2303200E4B658 /* VWChaplinDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541B70001EB2303200E4B658 /* VWChaplinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				541B70341EB2305E00E4B658 /* VWChaplin */,
+				541B70041EB2303200E4B658 /* AppDelegate.h */,
+				541B70051EB2303200E4B658 /* AppDelegate.m */,
+				541B70071EB2303200E4B658 /* ViewController.h */,
+				541B70081EB2303200E4B658 /* ViewController.m */,
+				541B700A1EB2303200E4B658 /* Main.storyboard */,
+				541B700D1EB2303200E4B658 /* Assets.xcassets */,
+				541B700F1EB2303200E4B658 /* LaunchScreen.storyboard */,
+				541B70121EB2303200E4B658 /* Info.plist */,
+				541B70011EB2303200E4B658 /* Supporting Files */,
+			);
+			path = VWChaplinDemo;
+			sourceTree = "<group>";
+		};
+		541B70011EB2303200E4B658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				541B70021EB2303200E4B658 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		541B701A1EB2303200E4B658 /* VWChaplinDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				541B701B1EB2303200E4B658 /* VWChaplinDemoTests.m */,
+				541B701D1EB2303200E4B658 /* Info.plist */,
+			);
+			path = VWChaplinDemoTests;
+			sourceTree = "<group>";
+		};
+		541B70251EB2303200E4B658 /* VWChaplinDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				541B70261EB2303200E4B658 /* VWChaplinDemoUITests.m */,
+				541B70281EB2303200E4B658 /* Info.plist */,
+			);
+			path = VWChaplinDemoUITests;
+			sourceTree = "<group>";
+		};
+		541B70341EB2305E00E4B658 /* VWChaplin */ = {
+			isa = PBXGroup;
+			children = (
+				541B70351EB2305E00E4B658 /* VWChaplin.h */,
+				541B70361EB2305E00E4B658 /* VWChaplin.m */,
+			);
+			path = VWChaplin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541B6FFD1EB2303200E4B658 /* VWChaplinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B702B1EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemo" */;
+			buildPhases = (
+				541B6FFA1EB2303200E4B658 /* Sources */,
+				541B6FFB1EB2303200E4B658 /* Frameworks */,
+				541B6FFC1EB2303200E4B658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VWChaplinDemo;
+			productName = VWChaplinDemo;
+			productReference = 541B6FFE1EB2303200E4B658 /* VWChaplinDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		541B70161EB2303200E4B658 /* VWChaplinDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B702E1EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemoTests" */;
+			buildPhases = (
+				541B70131EB2303200E4B658 /* Sources */,
+				541B70141EB2303200E4B658 /* Frameworks */,
+				541B70151EB2303200E4B658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541B70191EB2303200E4B658 /* PBXTargetDependency */,
+			);
+			name = VWChaplinDemoTests;
+			productName = VWChaplinDemoTests;
+			productReference = 541B70171EB2303200E4B658 /* VWChaplinDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		541B70211EB2303200E4B658 /* VWChaplinDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B70311EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemoUITests" */;
+			buildPhases = (
+				541B701E1EB2303200E4B658 /* Sources */,
+				541B701F1EB2303200E4B658 /* Frameworks */,
+				541B70201EB2303200E4B658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541B70241EB2303200E4B658 /* PBXTargetDependency */,
+			);
+			name = VWChaplinDemoUITests;
+			productName = VWChaplinDemoUITests;
+			productReference = 541B70221EB2303200E4B658 /* VWChaplinDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541B6FF61EB2303200E4B658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = voicewh;
+				TargetAttributes = {
+					541B6FFD1EB2303200E4B658 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					541B70161EB2303200E4B658 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541B6FFD1EB2303200E4B658;
+					};
+					541B70211EB2303200E4B658 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541B6FFD1EB2303200E4B658;
+					};
+				};
+			};
+			buildConfigurationList = 541B6FF91EB2303200E4B658 /* Build configuration list for PBXProject "VWChaplinDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541B6FF51EB2303200E4B658;
+			productRefGroup = 541B6FFF1EB2303200E4B658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541B6FFD1EB2303200E4B658 /* VWChaplinDemo */,
+				541B70161EB2303200E4B658 /* VWChaplinDemoTests */,
+				541B70211EB2303200E4B658 /* VWChaplinDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541B6FFC1EB2303200E4B658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B70111EB2303200E4B658 /* LaunchScreen.storyboard in Resources */,
+				541B700E1EB2303200E4B658 /* Assets.xcassets in Resources */,
+				541B700C1EB2303200E4B658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B70151EB2303200E4B658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B70201EB2303200E4B658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541B6FFA1EB2303200E4B658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B70091EB2303200E4B658 /* ViewController.m in Sources */,
+				541B70061EB2303200E4B658 /* AppDelegate.m in Sources */,
+				541B70371EB2305E00E4B658 /* VWChaplin.m in Sources */,
+				541B70031EB2303200E4B658 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B70131EB2303200E4B658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B701C1EB2303200E4B658 /* VWChaplinDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B701E1EB2303200E4B658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B70271EB2303200E4B658 /* VWChaplinDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		541B70191EB2303200E4B658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541B6FFD1EB2303200E4B658 /* VWChaplinDemo */;
+			targetProxy = 541B70181EB2303200E4B658 /* PBXContainerItemProxy */;
+		};
+		541B70241EB2303200E4B658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541B6FFD1EB2303200E4B658 /* VWChaplinDemo */;
+			targetProxy = 541B70231EB2303200E4B658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		541B700A1EB2303200E4B658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541B700B1EB2303200E4B658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		541B700F1EB2303200E4B658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541B70101EB2303200E4B658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541B70291EB2303200E4B658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		541B702A1EB2303200E4B658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541B702C1EB2303200E4B658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VWChaplinDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicewh.VWChaplinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		541B702D1EB2303200E4B658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VWChaplinDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicewh.VWChaplinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		541B702F1EB2303200E4B658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VWChaplinDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicewh.VWChaplinDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VWChaplinDemo.app/VWChaplinDemo";
+			};
+			name = Debug;
+		};
+		541B70301EB2303200E4B658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VWChaplinDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicewh.VWChaplinDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VWChaplinDemo.app/VWChaplinDemo";
+			};
+			name = Release;
+		};
+		541B70321EB2303200E4B658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VWChaplinDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicewh.VWChaplinDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VWChaplinDemo;
+			};
+			name = Debug;
+		};
+		541B70331EB2303200E4B658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VWChaplinDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voicewh.VWChaplinDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VWChaplinDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541B6FF91EB2303200E4B658 /* Build configuration list for PBXProject "VWChaplinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B70291EB2303200E4B658 /* Debug */,
+				541B702A1EB2303200E4B658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B702B1EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B702C1EB2303200E4B658 /* Debug */,
+				541B702D1EB2303200E4B658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541B702E1EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B702F1EB2303200E4B658 /* Debug */,
+				541B70301EB2303200E4B658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541B70311EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B70321EB2303200E4B658 /* Debug */,
+				541B70331EB2303200E4B658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541B6FF61EB2303200E4B658 /* Project object */;
+}
