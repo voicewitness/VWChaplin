@@ -13,8 +13,21 @@ typedef struct _VWChaplinRange {
     int64_t length;
 } VWChaplinRange;
 
+VWChaplinRange ChaplinMakeRange(int64_t location, int64_t length);
+
+@interface VWChaplinSmile : NSObject
+
+- (void)pause;
+
+- (void)resumeCreateSession:(BOOL)shouldCreate;
+
+@end
+
 @interface VWChaplin : NSObject
 
-- (void)downloadWithMethod:(NSString *)method URLString:(NSString *)URLString progress:(void (^)(NSProgress *downloadProgress))downloadProgress destination:(NSURL *(^)(NSURL *suggestedPath))destination completionHandler:(void(^)(NSURL *filePath, NSError *error))completionHandler;
+- (VWChaplinSmile *)downloadWithMethod:(NSString *)method URLString:(NSString *)URLString params:(NSDictionary *)params progress:(void (^)(NSProgress *downloadProgress))downloadProgress destination:(NSURL *(^)(NSURL *targetPath, NSURLResponse *response))destination completionHandler:(void(^)(NSURL *filePath, NSError *error))completionHandler;
+
+
+- (void)resumeDownladWithChaplinSmlie:(VWChaplinSmile *)smile;
 
 @end

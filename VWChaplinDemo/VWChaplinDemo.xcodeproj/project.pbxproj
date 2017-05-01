@@ -16,6 +16,7 @@
 		541B701C1EB2303200E4B658 /* VWChaplinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B701B1EB2303200E4B658 /* VWChaplinDemoTests.m */; };
 		541B70271EB2303200E4B658 /* VWChaplinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70261EB2303200E4B658 /* VWChaplinDemoUITests.m */; };
 		541B70371EB2305E00E4B658 /* VWChaplin.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70361EB2305E00E4B658 /* VWChaplin.m */; };
+		54752C711EB74562008C55ED /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54752C701EB74562008C55ED /* DownloadCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		541B70281EB2303200E4B658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541B70351EB2305E00E4B658 /* VWChaplin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWChaplin.h; sourceTree = "<group>"; };
 		541B70361EB2305E00E4B658 /* VWChaplin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWChaplin.m; sourceTree = "<group>"; };
+		54752C6F1EB74562008C55ED /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
+		54752C701EB74562008C55ED /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				541B700F1EB2303200E4B658 /* LaunchScreen.storyboard */,
 				541B70121EB2303200E4B658 /* Info.plist */,
 				541B70011EB2303200E4B658 /* Supporting Files */,
+				54752C6F1EB74562008C55ED /* DownloadCell.h */,
+				54752C701EB74562008C55ED /* DownloadCell.m */,
 			);
 			path = VWChaplinDemo;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				541B70061EB2303200E4B658 /* AppDelegate.m in Sources */,
 				541B70371EB2305E00E4B658 /* VWChaplin.m in Sources */,
 				541B70031EB2303200E4B658 /* main.m in Sources */,
+				54752C711EB74562008C55ED /* DownloadCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +527,7 @@
 				541B702D1EB2303200E4B658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541B702E1EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				541B70301EB2303200E4B658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541B70311EB2303200E4B658 /* Build configuration list for PBXNativeTarget "VWChaplinDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +545,7 @@
 				541B70331EB2303200E4B658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
