@@ -57,12 +57,14 @@
     }];
     [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         DownloadCell *cell = [DownloadCell new];
-        VWChaplinSmile *task = [self.downloader downloadWithMethod:@"GET" URLString:alert.textFields.lastObject.text params:nil progress:^(NSProgress *downloadProgress) {
+        VWChaplinSmile *task = [self.downloader downloadWithMethod:@"GET" URLString:alert.textFields.lastObject.text params:nil options:0 progress:^(NSProgress *downloadProgress) {
             dispatch_async(dispatch_get_main_queue(), ^{
-                [cell updateProgress:downloadProgress.completedUnitCount/downloadProgress.totalUnitCount];
+                [cell updateProgress:downloadProgress];
             });
         } destination:nil completionHandler:^(NSURL *filePath, NSError *error) {
-            
+            if (error) {
+                NSLog(@">>>>>>>>error:%@",error);
+            }
         }];
         [cell setUpWithTask:task];
         [self.tasks addObject:task];

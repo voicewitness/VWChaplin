@@ -13,7 +13,7 @@
 
 - (void)setUpWithTask:(VWChaplinSmile *)task;
 
-- (void)updateProgress:(float)progress;
+- (void)updateProgress:(NSProgress *)progress;
 
 
 
