@@ -17,6 +17,7 @@
 		541B70271EB2303200E4B658 /* VWChaplinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70261EB2303200E4B658 /* VWChaplinDemoUITests.m */; };
 		541B70371EB2305E00E4B658 /* VWChaplin.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B70361EB2305E00E4B658 /* VWChaplin.m */; };
 		54752C711EB74562008C55ED /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54752C701EB74562008C55ED /* DownloadCell.m */; };
+		5489C3051EC760A200389587 /* NormalDownloaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5489C3041EC760A200389587 /* NormalDownloaderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		541B70361EB2305E00E4B658 /* VWChaplin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWChaplin.m; sourceTree = "<group>"; };
 		54752C6F1EB74562008C55ED /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
 		54752C701EB74562008C55ED /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
+		5489C3031EC760A200389587 /* NormalDownloaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDownloaderViewController.h; sourceTree = "<group>"; };
+		5489C3041EC760A200389587 /* NormalDownloaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDownloaderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				541B70011EB2303200E4B658 /* Supporting Files */,
 				54752C6F1EB74562008C55ED /* DownloadCell.h */,
 				54752C701EB74562008C55ED /* DownloadCell.m */,
+				5489C3031EC760A200389587 /* NormalDownloaderViewController.h */,
+				5489C3041EC760A200389587 /* NormalDownloaderViewController.m */,
 			);
 			path = VWChaplinDemo;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			files = (
 				541B70091EB2303200E4B658 /* ViewController.m in Sources */,
 				541B70061EB2303200E4B658 /* AppDelegate.m in Sources */,
+				5489C3051EC760A200389587 /* NormalDownloaderViewController.m in Sources */,
 				541B70371EB2305E00E4B658 /* VWChaplin.m in Sources */,
 				541B70031EB2303200E4B658 /* main.m in Sources */,
 				54752C711EB74562008C55ED /* DownloadCell.m in Sources */,
